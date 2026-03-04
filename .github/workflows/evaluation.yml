@@ -34,17 +34,17 @@ on:
         description: 'Max concurrent skills to evaluate'
         required: false
         type: number
-        default: 3
+        default: 5
       parallel-scenarios:
         description: 'Max concurrent scenarios per skill'
         required: false
         type: number
-        default: 3
+        default: 5
       parallel-runs:
         description: 'Max concurrent runs per scenario'
         required: false
         type: number
-        default: 3
+        default: 5
       verbose:
         description: 'Enable verbose output'
         required: false
